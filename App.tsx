@@ -9,11 +9,14 @@ import React from 'react';
 import {StyleSheet} from 'react-native';
 
 import Routes from './src/Routes';
+import {NavigationContainer} from '@react-navigation/native';
 
 function App(): JSX.Element {
   return (
     <>
-      <Routes />
+      <NavigationContainer>
+        <Routes />
+      </NavigationContainer>
     </>
   );
 }

@@ -1,9 +1,10 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import HomeScreen from './screens/Private/HomeScreen';
+
+import PrivateRoutes from './routes/PrivateRoutes';
 
 const Routes = () => {
-  return <HomeScreen />;
+  return <PrivateRoutes />;
 };
 
 export default Routes;
